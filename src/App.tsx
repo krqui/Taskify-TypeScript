@@ -103,11 +103,12 @@ const App:React.FC =()=>{
     setCompletedTodos(complete);
     setTodos(active);
   };
+  let date:string = new Date().toLocaleDateString('en-GB');
   //console.log(todos);
   return (
     <DragDropContext onDragEnd={onDragEnd}>
   <div className="App">
-    <span className='heading'>Taskify</span>
+    <span className='heading'>{`Taskify ${date}`}</span>
     <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd}></InputField>
     <TodoList todos={todos} setTodos={setTodos} completedTodos={completedTodos} setCompletedTodos={setCompletedTodos}></TodoList>
   </div>
