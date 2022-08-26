@@ -7,6 +7,8 @@ A Taskify is a simple way to create and manage individual to-do & task list quic
 #### Main view
 <a><img align="center"  src="https://res.cloudinary.com/dby5zzxin/image/upload/v1661474707/yjrclwjsq736habxkuju.png" height="300"/></a>
 
+### Deploy
+<a href="https://taskify-type-script-frzk951wi-krqui.vercel.app/">Link to deploy</a>
 ### Dependencies
 
 - create-react-app
